@@ -24,7 +24,7 @@ namespace DesafioProjetoHospedagem.Models
             else
             {
                 // TODO: Retornar uma exception caso a capacidade seja menor que o número de hóspedes recebido
-                // *IMPLEMENTE AQUI*
+                // *IMPLEMENTE AQUI* (CONCLUÍDO!)
                 throw new Exception("O número de hóspedes é maior que a capacidade máxima da suíte!");
             }
         }
@@ -37,8 +37,8 @@ namespace DesafioProjetoHospedagem.Models
         public int ObterQuantidadeHospedes()
         {
             // TODO: Retorna a quantidade de hóspedes (propriedade Hospedes)
-            // *IMPLEMENTE AQUI*
-            return 0;
+            // *IMPLEMENTE AQUI* (CONLUÍDO!)
+            return Hospedes.Count;
         }
 
         public decimal CalcularValorDiaria()
